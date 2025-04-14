@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #011735;
+    font-family: Lexend;
+}
+
+header{
+    margin: auto;
+    width: 80%;
+    background-image: url('header-picture.png');
+    background-position: center;
+    height: 200px;
+    color: #fff;
+}
+
+header h1{
+    font-weight: bold;
+    padding-top: 80px;
+    padding-left: 100px;
+}
+
+main{
+    margin: auto;
+    width: 80%;
+}
+
+.nav-link:hover{
+    color: #011735;
+}
