@@ -23,11 +23,50 @@ header h1{
     padding-left: 100px;
 }
 
+footer{
+    background-color: azure;
+    width: 80%;
+    margin: auto;
+    padding: 5px;
+}
+
 main{
     margin: auto;
     width: 80%;
+    background-color: azure;
 }
 
 .nav-link:hover{
     color: #011735;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
 }
+
+.gradient-br {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 1000px;
+    border: 5px solid #0000;
+    border-radius: 10px;
+    background: linear-gradient(#131219, #131219) padding-box, linear-gradient(
+          var(--angle),
+          #070707,
+          #687aff
+        ) border-box;
+    animation: 15s rotate linear infinite;
+  }
+  
+  @keyframes rotate {
+    to {
+      --angle: 360deg;
+    }
+  }
+  
+  @property --angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+  }
+  
