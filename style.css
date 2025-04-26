@@ -51,7 +51,7 @@ main{
           #070707,
           #687aff
         ) border-box;
-    animation: 15s rotate linear infinite;
+    animation: 10s rotate linear infinite;
   }
 
 .gradient-br h2, .gradient-br p {
@@ -101,16 +101,23 @@ main{
     background-color: #687aff;
 }
 
-.kepekold img{
-    margin: 10px auto;
-    width: 100%;
-    height: auto;
+img{
+  border: 2px solid #687aff;
+  border-radius: 10px;
 }
+
+.kepekold img{
+  margin: 15px auto;
+  width: 100%;
+}
+
 
 .carouselegesz{
   margin: auto;
   width: 70%;
 }
+
+
 
 
   
