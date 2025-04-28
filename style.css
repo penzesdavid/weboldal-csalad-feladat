@@ -123,6 +123,7 @@ main{
 img{
   border: 2px solid #687aff;
   border-radius: 10px;
+  box-shadow: #687aff 0px 0px 10px;
 }
 
 table {
