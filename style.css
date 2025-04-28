@@ -115,16 +115,9 @@ main{
 	}
 }
 
-.fokep1{
+.fokep{
   margin: 20px;
-    width: 50%;
-    float: right;
-}
-
-.fokep2{
-  margin: 20px;
-    width: 50%;
-    float: left;
+  width: 50%;
 }
 
 table {
