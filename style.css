@@ -201,3 +201,14 @@ tr:nth-child(even){background-color: #687aff}
   border: 3px #687aff solid;
   border-radius: 5%;
 }
+.butn{
+  color: #fff;
+  background-color: #070707;
+  border: 2px #687aff solid;
+  border-radius: 7%;
+}
+.butn:hover{
+  background-color: #fff;
+  color: #070707;
+  transition: all 0.3s ease-in-out;
+}
