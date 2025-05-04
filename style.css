@@ -212,3 +212,45 @@ tr:nth-child(even){background-color: #687aff}
   color: #070707;
   transition: all 0.3s ease-in-out;
 }
+
+/* Alsó sáv konténer */
+#bottom-bar-uzenet {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #011735;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Üzenet stílusa */
+#bottom-bar-uzenet .uzenet {
+  margin: 0;
+  font-size: 14px;
+}
+
+/* Elfogadás gomb stílusa */
+#bottom-bar-uzenet .gomb-accept {
+  background-color: #000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: #687aff 0px 0px 10px;
+}
+
+#bottom-bar-uzenet .gomb-accept:hover {
+  background-color: #687aff;
+  color: #000;
+  transition: all 0.5s ease-in;
+  box-shadow: #687aff 0px 0px 20px;
+}
