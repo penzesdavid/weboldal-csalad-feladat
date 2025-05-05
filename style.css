@@ -169,6 +169,7 @@ tr:nth-child(even){background-color: #687aff}
 }
 .slider {
   -webkit-appearance: none;
+  appearance: none;
   width: 20%;
   height: 25px;
   outline: none;
